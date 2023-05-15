@@ -42,3 +42,35 @@
 .ex-5-square:active {
     transform: scale(0.75);
 }
+
+/* ESERCIZIO 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* ESERCIZIO 7 */
+.ex-7-img {
+    transition: filter 1s ease-out;
+}
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
+
+/* ESERCIZIO 8 */
+.ex-8-img {
+    transition: all 1s ease-in-out;
+}
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(1) brightness(0.6);
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img {
+    transition: all 1s ease-in-out;
+}
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(1) brightness(0.6);
+    transform: scale(1.5);
+}
